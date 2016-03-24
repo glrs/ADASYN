@@ -59,7 +59,7 @@ class Adasyn(object):
             new_X, new_y = self.generate_samples(rlist, self.X, self.y, G, class_i, self.K)
             print "in classes:", classes
             print("length of new_X, new_y:", len(new_X), len(new_y))
-#             print("shape of new_X, new_y:", new_X.shape, new_y.shape)
+
             self.new_X.append(new_X)
             self.new_y.append(new_y)
         
